@@ -4,11 +4,11 @@ organization := "com.github.mnogu"
 
 version := "0.2.0-SNAPSHOT"
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.12.10"
 
 libraryDependencies ++= Seq(
-  "io.gatling" % "gatling-core" % "3.0.2" % "provided",
-  ("org.apache.kafka" % "kafka-clients" % "1.1.0")
+  "io.gatling" % "gatling-core" % "3.3.1" % "provided",
+  ("org.apache.kafka" % "kafka-clients" % "2.3.0")
     // Gatling contains slf4j-api
     .exclude("org.slf4j", "slf4j-api")
 )
